@@ -18,8 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/1c840a480d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Develop/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -38,57 +38,57 @@
             <th>Save</th>
           </tr>
         </thead>
-        <tr id="hour-9" data-time="9" class="time-slot">
+        <tr id="hour9" class="time-slot">
           <td class="data-time">9:00AM</td>
-          <td class="data-schedule"><textarea name="9-text"></textarea></td>
+          <td class="data-schedule" id="9"><textarea name="9-text"></textarea></td>
           <td class="data-save" id="9am"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-10" data-time="10" class="time-slot">
+        <tr id="hour10" class="time-slot">
           <td class="data-time">10:00AM</td>
-          <td class="data-schedule"><textarea name="10-text"></textarea></td>
-          <td class="data-save" id="10am"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id="10"><textarea name="10-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-11" data-time="11" class="time-slot">
+        <tr id="hour11" class="time-slot">
           <td class="data-time">11:00AM</td>
-          <td class="data-schedule"><textarea name="11-text"></textarea></td>
-          <td class="data-save" id="11am"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id="11"><textarea name="11-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-12" data-time="12" class="time-slot">
+        <tr id="hour12" class="time-slot">
           <td class="data-time">12:00PM</td>
-          <td class="data-schedule"><textarea name="12-text"></textarea></td>
-          <td class="data-save" id="12pm"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id="12"><textarea name="12-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-13" data-time="13" class="time-slot">
+        <tr id="hour13" class="time-slot">
           <td class="data-time">1:00PM</td>
-          <td class="data-schedule"><textarea name="13-text"></textarea></td>
-          <td class="data-save" id="13pm"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id="13"><textarea name="13-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-14" data-time="14" class="time-slot">
+        <tr id="hour14" class="time-slot">
           <td class="data-time">2:00PM</td>
-          <td class="data-schedule"><textarea name="14-text"></textarea></td>
-          <td class="data-save" id="14pm"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id="14"><textarea name="14-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-15" data-time="15" class="time-slot">
+        <tr id="hour15" class="time-slot">
           <td class="data-time">3:00PM</td>
-          <td class="data-schedule"><textarea name="15-text"></textarea></td>
-          <td class="data-save" id="15pm"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id="15"><textarea name="15-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-16" data-time="16" class="time-slot">
+        <tr id="hour16" class="time-slot">
           <td class="data-time">4:00PM</td>
-          <td class="data-schedule"><textarea name="16-text"></textarea></td>
-          <td class="data-save" id="16pm"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id="16"><textarea name="16-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
-        <tr id="hour-17" data-time="17" class="time-slot">
+        <tr id="hour17" class="time-slot">
           <td class="data-time">5:00PM</td>
-          <td class="data-schedule"><textarea name="17-text"></textarea></td>
-          <td class="data-save" id="17pm"><button><i class="fa-solid fa-lock"></i></td></button>
+          <td class="data-schedule" id=""><textarea name="17-text"></textarea></td>
+          <td class="data-save"><button><i class="fa-solid fa-lock"></i></td></button>
         </tr>
     </table>
 
       <!-- Timeblocks go here -->
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Develop/script.js"></script>
   </body>
 </html>
