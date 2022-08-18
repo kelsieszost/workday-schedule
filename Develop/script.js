@@ -21,6 +21,13 @@ $(document).ready(function() {
     $("#hour17 .data-schedule").val(localStorage.getItem("hour17"));
 });
 
+$(".data-schedule").each (function() {
+    var id = $(this).attr("id");
+    var tasks = localStorage.getItem("id");
+    if(tasks !== null) {
+        $(this).children("tasks").val(tasks);
+    }
+})
 
 function trackHours() {
     var currentTime = moment().hour();
@@ -41,8 +48,11 @@ function trackHours() {
     })
 }
 
-$(".data-save").on("click", function() {
+var saveBtn = $(".data-save");
 
-    localStorage.setItem($(this).parent().attr("id"), $(this).prev().val());
+saveBtn.on("click", function() {
+    var time =$(this).parent().attr("id");
+    var current = $(this).siblings(".schedule");
+    localStorage.setItem(time,current);
 
 });
