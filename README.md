@@ -5,6 +5,11 @@ This is a interactive calendar that allows you to input daily tasks into your sc
 
 ## Usage
 
+https://kelsieszost.github.io/workday-schedule/ 
+
+https://github.com/kelsieszost/workday-schedule 
+
+![Screenshot](assets/Images/Screen%20Shot%202022-08-18%20at%2010.49.56%20PM.png)
 
 
 ## License
