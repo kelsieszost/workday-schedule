@@ -11,7 +11,7 @@ var todayDate = moment();
 
 function setPlanner() {
   
-    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
+    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY, H:mm:ss"));
     setInterval(digitalClock, 1000);
 
     $(".time-block").each(function () {
