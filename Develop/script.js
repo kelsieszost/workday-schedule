@@ -9,11 +9,6 @@ var hour4 = $("#16");
 var hour5 = $("#17");
 var todayDate = moment();
 
-
-
-
-
-
 function setPlanner() {
   
     $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
@@ -63,17 +58,9 @@ pastPresentFuture();
 
 var digitalClock = function () {
     var todayDate = moment();
-
-
-
 };
 
 digitalClock();
 setInterval(digitalClock, 1000);
-
-
-
-
-
 
 trackHours();

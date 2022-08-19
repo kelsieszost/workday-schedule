@@ -21,19 +21,16 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.td {
-  white-space: pre-wrap;
-}
-
-.time-slot{
+.time-block{
   text-align: center;
   border-radius: 15px;
 }
 
-.tr {
+.row{
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  white-space: prewrap;
 }
 
 .hour {
@@ -57,7 +54,7 @@ textarea{
   color: white;
 }
 
-.data-save {
+.saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -65,7 +62,7 @@ textarea{
   color: white;
 }
 
-.data-save i:hover {
+.saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
